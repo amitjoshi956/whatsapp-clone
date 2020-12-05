@@ -1,19 +1,19 @@
-.SidebarChat {
+.Chat {
     display: flex;
     padding: 20px;
     cursor: pointer;
     border-bottom: 1px solid #f6f6f6;
 }
 
-.SidebarChat:hover {
+.Chat:hover {
     background-color: #ebebeb;
 }
 
-.SidebarChat_Info > h2 {
+.ChatInfo > h2 {
     font-size: 16px;
     margin-bottom: 8px;
 }
 
-.SidebarChat_Info {
+.ChatInfo {
     margin-left: 15px;
 }

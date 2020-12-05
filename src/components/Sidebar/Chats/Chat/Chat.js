@@ -1,11 +1,11 @@
 import { Avatar } from "@material-ui/core"
-import "./SidebarChat.css"
+import * as classes from "./Chat.module.css"
 
 const SidebarChat = () => {
     return (
-        <div className="SidebarChat">
+        <div className={classes.Chat}>
             <Avatar />
-            <div className="SidebarChat_Info">
+            <div className={classes.ChatInfo}>
                 <h2>Room name</h2>
                 <p>This is the last message...</p>
             </div>
