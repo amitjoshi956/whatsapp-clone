@@ -1,0 +1,20 @@
+.ChatRoomHeader {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.ChatRoomHeaderInfo {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.ChatRoomHeaderInfo > h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.ChatRoomHeaderInfo > p {
+    color: gray;
+}
